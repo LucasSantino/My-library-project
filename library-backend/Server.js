@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 //Conexão ao MongoDB
-mongoose.connect('mongodb+srv://SantinoLucas:<db_password>@library.fetwz.mongodb.netlibrary', {
+mongoose.connect('mongodb+srv://SantinoLucas:<db_password>@library.fetwz.mongodb.netlibrar', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
